@@ -1,0 +1,39 @@
+{
+  "name": "danger_is_near",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:contract": "asb",
+    "dev:deploy:contract": "near dev-deploy --wasmFile=\"./out/main.wasm\" && echo \"# This file used by webpack\nCONTRACT_NAME=$(cat neardev/dev-account)\" > .env",
+    "test": "jest",
+    "deploy": "near deploy"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.7.1",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@fontsource/press-start-2p": "^4.5.5",
+    "file-loader": "^6.2.0",
+    "framer-motion": "^5.3.0",
+    "near-api-js": "^0.44.2",
+    "next": "12.0.3",
+    "next-fonts": "^1.5.1",
+    "phaser": "^3.55.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.4.4",
+    "uuid": "^8.3.2",
+    "near-sdk-as": "^3.2.3",
+    "openblimp": "0.1.15"
+  },
+  "devDependencies": {
+    "eslint": "7",
+    "eslint-config-next": "12.0.3"
+  }
+}
