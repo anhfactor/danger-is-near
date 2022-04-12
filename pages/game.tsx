@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import { useState, useEffect } from 'react';
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useContext } from 'react';
@@ -12,6 +11,7 @@ const DynamicComponentWithNoSSR = dynamic(
 )
 
 const Game: NextPage = () => {
+  // @ts-ignore
   const { account } = useContext(AppContext);
 
   if (!account.accountId) {

@@ -4,6 +4,7 @@ import { Flex, Text, Button, Heading, Center, VStack } from '@chakra-ui/react';
 import AppContext from '@components/AppContext';
 
 export  const ConnectWalletMessage = () => {
+  // @ts-ignore
   const { login } = useContext(AppContext);
 
   return (

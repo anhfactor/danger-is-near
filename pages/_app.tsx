@@ -30,7 +30,7 @@ const theme = extendTheme({ colors, config,
     } 
 });
 
-
+// @ts-ignore
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>

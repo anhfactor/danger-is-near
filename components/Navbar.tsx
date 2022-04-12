@@ -39,8 +39,8 @@ const NavLink = ({ children }: { children: ReactNode }) => (
 
 export default function Nav() {
   const { colorMode, toggleColorMode } = useColorMode();
-  const { isOpen, onOpen, onClose } = useDisclosure();
   const router = useRouter();
+  // @ts-ignore
   const {  account, config, balance, login, logout } = useContext(AppContext);
   return (
     <>

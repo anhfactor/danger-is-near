@@ -25,16 +25,17 @@
       "@helpers/*": ["helpers/*"],
       "@styles/*": ["styles/*"],
       "@utils/*": ["utils/*"],
-    }
+    },
+    "experimentalDecorators": true
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
     "**/*.tsx",
     "**/*.js",
     "**/*.jsx",
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "assebmly"
   ]
 }
