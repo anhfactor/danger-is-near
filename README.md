@@ -1,10 +1,11 @@
 # Danger is near
-
+<a href="https://www.buymeacoffee.com/anhfactor" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 ## 📄 Overview
 
 Danger is near (play to earn game, gamefi) - user play as a fireknight who go to forest and kill monster. User can earn $DANGER token and score to compete with others user.
 
-The contract code lives in the `/assembly` folder. 
+- The contract code lives in the `/assembly` folder. 
+- The game made by phaser framework
 
 Both contract and client-side code will auto-reload as you change source files.
 The contract get/save user score & using OpenBlimp library to implementation of the NEAR Fungible Token Standard, consisting of:
@@ -14,7 +15,7 @@ The contract get/save user score & using OpenBlimp library to implementation of 
 
 The demo from challenge Dacade courses "NEAR Development 101": [https://dacade.org/communities/near/courses/near-101/]
 
-Demo Website.
+- [Demo Website](https://danger-is-near.vercel.app/).   
 You can signup here to learn and earn crypto: https://dacade.org/signup?invite=anhfellow
 
 ## Technology stack
@@ -38,7 +39,7 @@ You can signup here to learn and earn crypto: https://dacade.org/signup?invite=a
   ![Wallet Token](./public/game3.png)
 - **Leaderboard**
   ![Leaderboard](./public/game4.png)
-- **Gameplay Overview**
+- **GameplayOverview**
   ![Gameplay Overview](./public/game5.png)
 
 ## Installing
