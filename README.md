@@ -113,6 +113,17 @@ For the fire knight to be able to survive you need to dodge obstacles and kills 
 
 ![Death](https://img.itch.zone/aW1nLzcwMzM3NTQuZ2lm/original/GXvYCp.gif)
 
+### Enemy Art
+**[Bringer Of Death](https://clembod.itch.io/bringer-of-death-free)**
+
+![Idle](https://img.itch.zone/aW1hZ2UvOTgwNzM4LzU1NzQxNDkuZ2lm/794x1000/tYVsuZ.gif)
+
+![Walk](https://img.itch.zone/aW1hZ2UvOTgwNzM4LzU1NzQxNDcuZ2lm/794x1000/6KRG1m.gif)
+
+![Attack](https://img.itch.zone/aW1hZ2UvOTgwNzM4LzU1NzQxNDUuZ2lm/794x1000/ufy3oS.gif)
+
+![Death](https://img.itch.zone/aW1hZ2UvOTgwNzM4LzU1NzQxNTAuZ2lm/794x1000/Au1kT3.gif)
+
 ### Sound Effects
 
 **[Super Dialogue Audio Pack](https://bckr.itch.io/sdap) (death) by Dillon Becker. This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**

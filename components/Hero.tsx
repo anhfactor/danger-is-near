@@ -5,10 +5,8 @@ import {
   Stack,
   Text,
   Button,
-  Icon,
-  IconProps,
   Link,
-  Image
+  Image,
 } from "@chakra-ui/react";
 
 export default function CallToActionWithIllustration() {
@@ -35,16 +33,16 @@ export default function CallToActionWithIllustration() {
           PLAY TO EARN GAME. *Dacade.org demo*
         </Text>
         <Stack direction={"row"}>
-          <Button
-            rounded={"full"}
-            colorScheme={"orange"}
-            bg={"orange.400"}
-            _hover={{ bg: "orange.500" }}
-          >
-            <Link href="/game" isExternal>
+          <Link href="/game" isExternal _hover={{textDecoration: "none"}}>
+            <Button
+              rounded={"full"}
+              colorScheme={"orange"}
+              bg={"orange.400"}
+              _hover={{ bg: "orange.500" }}
+            >
               Play Game
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </Stack>
         <Flex textAlign={"center"}
         align={"center"}>
