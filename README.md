@@ -15,6 +15,9 @@ The contract get/save user score & using OpenBlimp library to implementation of 
 
 The demo from challenge Dacade courses "NEAR Development 101": [https://dacade.org/communities/near/courses/near-101/]
 
+And from "learnear.club" in order to get "NEAR Certified Developer"
+[https://learnnear.club/?mref=anhnt4288.near%40learnnear.club]
+
 - [Demo Website](https://danger-is-near.vercel.app/).   
 You can signup here to learn and earn crypto: https://dacade.org/signup?invite=anhfellow
 
@@ -68,6 +71,7 @@ Now you'll have a local development environment backed by the NEAR TestNet! Runn
 7. Set contract name in code
 Modify the line in `src/config.js` that sets the account name of the contract. Set it to the account id you used above.
     const CONTRACT_NAME = process.env.CONTRACT_NAME || 'your-contract-here!'
+8. Testing contract: `yarn test`
     
 ## ⚒️ Game Built With Phaser 3
 

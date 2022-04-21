@@ -7,7 +7,9 @@
     "start": "next start",
     "lint": "next lint",
     "build:contract": "asb",
+    "build:contract:debug": "asb --target debug",
     "dev:deploy:contract": "near dev-deploy --wasmFile=\"./out/main.wasm\" && echo \"# This file used by webpack\nCONTRACT_NAME=$(cat neardev/dev-account)\" > .env",
+    "test:contract": "yarn build:contract:debug && asp",
     "test": "jest",
     "deploy": "near deploy"
   },
